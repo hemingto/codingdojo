@@ -1,0 +1,36 @@
+
+h1, p, button {
+	font-family: verdana;
+	color: #32CD32;
+}
+
+p {
+	color: red;
+	font-weight: 600;
+}
+
+#container {
+	margin:auto;
+	margin-top:100px;
+	width:800px;
+	text-align: center
+
+}
+
+img {
+	width:150px;
+	height:150px;
+	margin:10px;\
+	cursor: pointer;
+}
+
+button {
+	margin-top:50px;
+	outline:none;
+	border:none;
+	padding:10px;
+	font-size: 1em;
+	border-radius: 10px;
+	color:white;
+	background-color: #32CD32;
+}

@@ -1,0 +1,152 @@
+h1, p {
+	font-family: sans-serif;
+}
+
+
+
+#container {
+	width:1250px;
+	height:750px;
+	background-color: #f9f9f9;
+	margin: auto;
+}
+
+#top_num, #top_num ul, #top_num li, #side_num, #side_squares, .box, .box2, #main_squares, #right_squares, .box3, #bottom_squares, .box4, #margin {
+	display: inline-block;
+}
+
+#top_num li {
+	width:50px;
+	height:50px;
+	vertical-align: top;
+	text-align: center;
+	color:red;
+	line-height: 50px;
+	vertical-align: top;
+	margin: 6px;
+	text-align: center;
+
+}
+
+#top_num li:first-child {
+	line-height: 25px;
+}
+
+#margin li:first-child {
+	line-height:50px;
+}
+
+#side_num {
+	color:red;
+	vertical-align: top;
+}
+
+#side_num ul {
+	margin:0px;
+}
+
+#side_num li {
+	width:50px;
+	height: 50px;
+	list-style-type: none;
+	line-height: 50px;
+	vertical-align: top;
+	margin: 6px;
+	text-align: center;
+}
+
+#side_squares {
+	width:120px;
+	display: inline-block;
+}
+
+.box, .box2, .box3, .box4 {
+	width:50px;
+	height:50px;
+	background-color: lightblue;
+	outline: solid gray 2px;
+	display: inline-block;
+	margin:2px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.box p, .box2 p, .box3 p, .box4 p {
+	font-size: .7em;
+	margin:0px; 
+}
+
+.box h1, .box2 h1, .box3 h1, .box4 h1 {
+	margin:2px 0px;
+	font-size: 1.1em;
+	color:darkblue;
+
+}
+
+.box:first-child {
+	display: block;
+	margin-bottom: 6px;
+}
+
+#main_squares {
+	width:577px;
+}
+
+
+.box2 {
+	background-color: pink;
+}
+
+#right_squares {
+	width: 350px;
+}
+
+.box3 {
+	background-color: gold;
+}
+
+.box3:first-child {
+	display: block;
+	margin-left:292px;
+	margin-bottom:6px;
+}
+
+.box4 {
+	background-color: green;
+}
+
+#bottom_squares {
+	width:850px;
+	height: 200px;
+	margin-left:230px;
+	margin-top: 25px;
+	position: relative;
+}
+
+#labels {
+	position:absolute;
+	left:-120px;
+	color:red;
+	width:110px;
+}
+
+#labels span {
+	margin-left:15px;
+}
+
+#labels p {
+	margin-bottom:45px;
+}
+
+#margin {
+	margin-left: 0px;
+	padding:0px;
+}
+
+#margin {
+	width: 950px;
+}
+
+#margin li {
+	margin: 6px 9px 0px -5px;
+}

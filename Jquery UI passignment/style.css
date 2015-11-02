@@ -1,0 +1,38 @@
+
+h1 {
+	font-family: verdana;
+	margin:25px auto 10px auto;
+	text-align: center;
+}
+
+
+#accordion {
+	margin:auto;
+	width:500px;
+	margin-top:50px;
+}
+
+#tabs {
+	margin:auto;
+	margin-top:25px;
+	width:500px;
+
+}
+
+#explode {
+	width:100px;
+	height:100px;
+	margin:auto;
+	margin-top:25px;
+	background-color: darkred;
+	border-radius: 100%;
+	text-align: center;
+}
+
+#explode p {
+	line-height:100px;
+	height:100px;
+	margin:0px;
+	font-family: verdana;
+	color:white;
+}
