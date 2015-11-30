@@ -1,0 +1,22 @@
+<?php 
+
+$users['first_name'] = "Michael";
+$users['last_name'] = "Choi";
+function array_key_value($array)
+ 
+{
+		echo "There are 2 keys in this array: ";
+		foreach($array as $key => $value)
+		{
+			echo $key . "," . " ";
+		}	echo '<br>';
+		foreach ($array as $key => $value) 
+		{
+				
+			echo "The value in the key " . $key . " " . $value;
+			echo '<br>';
+		}
+			
+}
+array_key_value($users);
+?>

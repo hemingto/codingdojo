@@ -1,0 +1,12 @@
+<?php
+
+
+for($i = 1; $i < 2000; $i++) {
+	if($i % 2 !== 0) {
+		echo "number is" . " " . $i . " " . "this is an odd number <br>";
+	} else { 
+		echo "number is " . " " . $i . " " . "this is an even number <br>";
+	}
+} 
+
+?>
